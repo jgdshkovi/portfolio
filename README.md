@@ -3,8 +3,7 @@
 A clean and simple portfolio template built using React, if want a template built with HTML, CSS and JS then check out [Cleanfolio Minimal](https://github.com/jgdshkovi/portfolio-minimal).
 
 ## Preview
-
-[![Imgur](https://imgur.com/FwDMNEM.gif)](https://jgdshkovi.github.io/portfolio)
+https://jgdshkovi.github.io/portfolio
 
 [See Live](https://jgdshkovi.github.io/portfolio)
 
