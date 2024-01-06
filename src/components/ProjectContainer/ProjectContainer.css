@@ -12,6 +12,7 @@
 
 .project__description {
   margin-top: 1em;
+  white-space: pre-line;
 }
 
 .project__stack {
@@ -30,4 +31,8 @@
 
 .project .link--icon {
   margin-left: 0.5em;
+}
+
+.display-linebreak {
+  white-space: pre-line;
 }

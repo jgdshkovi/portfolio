@@ -19,7 +19,7 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
+          <a href={resume} target='_blank' rel='noopener noreferrer'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
@@ -32,7 +32,7 @@ const About = () => {
               <a
                 href={social.github}
                 aria-label='github'
-                className='link link--icon'
+                className='link link--icon' target='_blank' rel='noopener noreferrer'
               >
                 <GitHubIcon />
               </a>
@@ -42,7 +42,7 @@ const About = () => {
               <a
                 href={social.linkedin}
                 aria-label='linkedin'
-                className='link link--icon'
+                className='link link--icon' target='_blank' rel='noopener noreferrer'
               >
                 <LinkedInIcon />
               </a>

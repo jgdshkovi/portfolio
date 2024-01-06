@@ -21,28 +21,33 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Automated Web Scraping & Google Translate',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      `• Employed requests and BeautifulSoup(bs4) Python libraries to automate data extraction from provided URLs.
+      • Implemented a robust website scraping solution with customizable parameters, including element types and
+      scraping depth(up to 3), to efficiently organize and manage the extracted data.
+      • To showcase, automated the translation of a large sample website to Hindi using Google Translate API.`,
+      // [
+      //   "• Employed requests and BeautifulSoup(bs4) Python libraries to automate data extraction from provided URLs."
+      //   `• Implemented a robust website scraping solution with customizable parameters, including element types and
+      //   scraping depth(up to 3), to efficiently organize and manage the extracted data.`,
+      //   "• To showcase, automated the translation of a large sample website to Hindi using Google Translate API."],
+    stack: ['Python', 'BeautifulSoup', 'Requests'],
+    sourceCode: 'https://github.com/jgdshkovi/webscrape_and_translate',
+    livePreview: 'https://jgdshkovi-abc.000webhostapp.com/',
   },
   {
-    name: 'Project 2',
+    name: 'Toxic Comment Detection (on Twitter)',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      `• Successfully fine-tuned the BERT model (transfer learning) by leveraging the Jigsaw Toxic comment dataset from
+      Kaggle with ∼159k observations, enhancing its performance for accurate toxic comment classification.
+      • Implemented an integrated system that extracts tweets from the user’s timeline using the Twitter API and
+      seamlessly passes them to the trained NLP model for analysis.
+      • The trained model achieved an validation accuracy of 95.8%. Classify the tweets, and take appropriate action
+      based on the returned toxicity score, contributing to a safer online environment.`,
+    stack: ['Python', 'Flask', 'Tweepy', 'NLP', 'Libraries'],
+    sourceCode: 'https://github.com/jgdshkovi/final_yr_proj',
+    livePreview: '',
   },
 ]
 
@@ -92,4 +97,33 @@ const contact = {
   email: 'jagakovi@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+const experiences = [
+  {
+    title: 'Software Engineer',
+    company: 'FIS Global',
+    location: 'Chennai, INDIA',
+    duration: 'Oct 2021 - Nov 2022',
+    overview: 'Decision Solutions, Core Banking Solutions, Angular, Agile/Scrum',
+    responsibilities: [
+      "Helped rewrite the ‘Customer Setup’ platform, modernizing the old IBM AS/400 mainframes using AngularJS.",
+      "Seamlessly incorporated over 30 essential core banking modules - including ChexAdvisor, FraudChex, Customer Search, and Mergers/Acquisitions/Splits - enhancing the application’s functionality and efficiency.",
+      "Reduced application access times by 60% through the implementation of GUI interfaces, reports, and dashboards.",
+      "Engaged in cross-functional team collaboration, participated in product discussions and code reviews, and played a key role in both acceptance testing and go-live production builds."
+    ],
+  },
+  {
+    title: 'Summer Research Intern',
+    company: 'Bennett University',
+    location: 'Noida, INDIA',
+    duration: 'May 2020 - June 2020',
+    overview: 'PyTorch, Edge Computing, Custom k-means implementation',
+    responsibilities: [
+      "Successfully fine-tuned the BERT model (transfer learning) by leveraging the Jigsaw Toxic comment dataset from Kaggle with ∼159k observations, enhancing its performance for accurate toxic comment classification.",
+      "Implemented an integrated system that extracts tweets from the user’s timeline using the Twitter API and seamlessly passes them to the trained NLP model for analysis.",
+      "The trained model achieved an validation accuracy of 95.8%. Classify the tweets, and take appropriate action based on the returned toxicity score, contributing to a safer online environment."
+    ],
+  },
+  // Add more work experience items as needed
+];
+
+export { header, about, projects, skills, contact, experiences }
