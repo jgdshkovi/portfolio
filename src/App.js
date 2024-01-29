@@ -19,9 +19,9 @@ const App = () => {
 
       <main>
         <About />
+        <WorkExperienceTimeline />
         <Skills />
         <Projects />
-        <WorkExperienceTimeline />
         <Contact />
       </main>
 

@@ -7,7 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Jagadeesh',
-  role: 'aspiring ML Engineer/Data Scientist',
+  // role: 'Jack of all trades and a master of some.',
+  role1: 'Data Science@IU',
+  role2: 'Ex-Software Engineer@FIS ',
   description:
     "Jagadeesh Kovi is a passionate Data Science professional and Software Engineer with a proven track record of leveraging technology to drive innovation in the financial services sector. Graduating with a Master's in Data Science from Indiana University Bloomington, Jagadeesh possesses a rich academic foundation complemented by hands-on experience at industry-leading companies like FIS Global. With expertise spanning Python, Java, SQL, and cutting-edge technologies like Azure, he has played pivotal roles in modernizing core banking platforms, enhancing application efficiency, and translating intricate business requirements into tangible solutions. Adept at bridging the gap between technical intricacies and business objectives, Jagadeesh's commitment to excellence, combined with his analytical prowess, makes him a valuable asset in any forward-thinking organization.",
   resume: 'https://drive.google.com/file/d/1dIPGtgpAFZ5goYG5h6J9GT123S9I74la/view',
@@ -20,6 +22,19 @@ const about = {
 const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
+  {
+    name: 'Home Credit Default Risk Analysis',
+    description:
+      `• Designed and optimized an advanced Multi-Layer Perceptron (MLP) using back-propagation and gradient descent, achieving
+      a crucial 68.26% test accuracy, contributing to Home Credit’s lending strategy refinement.
+      • Employed feature selection techniques like grid search and cross-validation for hyperparameter tuning, enhancing the Deep
+      Learning model to achieve a test F1 score (0.7311) and a public score (0.7537).
+      • Executed a varied ensemble strategy with Random Forest, CatBoost, and XGBoost via stacking. Integrated a deep learning
+      algorithm, boosting predictive accuracy by 10%.`,
+    stack: ['Python', 'Sklearn,', 'Feature Selection', 'Hyperparameter tuning', 'TensorFlow'],
+    sourceCode: '',
+    livePreview: '',
+  },
   {
     name: 'Automated Web Scraping & Google Translate',
     description:
@@ -70,6 +85,7 @@ const skills = [
   'Flask',
 
   'Machine Learning',
+  'PyTorch',
   'CNN',
   'Linear & Logistic Regression',
   'KNN',
@@ -105,10 +121,10 @@ const experiences = [
     duration: 'Oct 2021 - Nov 2022',
     overview: 'Decision Solutions, Core Banking Solutions, Angular, Agile/Scrum',
     responsibilities: [
-      "Helped rewrite the ‘Customer Setup’ platform, modernizing the old IBM AS/400 mainframes using AngularJS.",
-      "Seamlessly incorporated over 30 essential core banking modules - including ChexAdvisor, FraudChex, Customer Search, and Mergers/Acquisitions/Splits - enhancing the application’s functionality and efficiency.",
-      "Reduced application access times by 60% through the implementation of GUI interfaces, reports, and dashboards.",
-      "Engaged in cross-functional team collaboration, participated in product discussions and code reviews, and played a key role in both acceptance testing and go-live production builds."
+      "• Helped rewrite the ‘Customer Setup’ platform, modernizing the old IBM AS/400 mainframes using AngularJS.",
+      "• Seamlessly incorporated over 30 essential core banking modules - including ChexAdvisor, FraudChex, Customer Search, and Mergers/Acquisitions/Splits - enhancing the application’s functionality and efficiency.",
+      "• Reduced application access times by 60% through the implementation of GUI interfaces, reports, and dashboards.",
+      "• Engaged in cross-functional team collaboration, participated in product discussions and code reviews, and played a key role in both acceptance testing and go-live production builds."
     ],
   },
   {
@@ -118,9 +134,9 @@ const experiences = [
     duration: 'May 2020 - June 2020',
     overview: 'PyTorch, Edge Computing, Custom k-means implementation',
     responsibilities: [
-      "Successfully fine-tuned the BERT model (transfer learning) by leveraging the Jigsaw Toxic comment dataset from Kaggle with ∼159k observations, enhancing its performance for accurate toxic comment classification.",
-      "Implemented an integrated system that extracts tweets from the user’s timeline using the Twitter API and seamlessly passes them to the trained NLP model for analysis.",
-      "The trained model achieved an validation accuracy of 95.8%. Classify the tweets, and take appropriate action based on the returned toxicity score, contributing to a safer online environment."
+      "• Successfully fine-tuned the BERT model (transfer learning) by leveraging the Jigsaw Toxic comment dataset from Kaggle with ∼159k observations, enhancing its performance for accurate toxic comment classification.",
+      "• Implemented an integrated system that extracts tweets from the user’s timeline using the Twitter API and seamlessly passes them to the trained NLP model for analysis.",
+      "• The trained model achieved an validation accuracy of 95.8%. Classify the tweets, and take appropriate action based on the returned toxicity score, contributing to a safer online environment."
     ],
   },
   // Add more work experience items as needed
