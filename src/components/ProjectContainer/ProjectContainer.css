@@ -1,6 +1,7 @@
 .project {
   padding: 2em;
   margin: 0 auto;
+  border-radius: 8px;
   text-align: center;
   box-shadow: var(--shadow);
   transition: transform 0.2s linear;
@@ -8,6 +9,7 @@
 
 .project:hover {
   transform: translateY(-7px);
+  box-shadow: 3px 3px 3px 3px gray ;
 }
 
 .project__description {

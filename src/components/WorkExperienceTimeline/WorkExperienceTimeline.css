@@ -6,11 +6,12 @@
   .timeline {
     margin: 0 auto;
     padding: 20px 0;
+    
   }
   
   .timeline-item {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     padding: 20px 0;
   }
@@ -20,6 +21,11 @@
     border-radius: 8px;
     padding: 20px;
     box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+  }
+  .timeline-content:hover {
+    transform: translateY(-7px);
+    box-shadow: 3px 3px 3px 3px gray ;
   }
   
   h3 {
