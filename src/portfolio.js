@@ -115,6 +115,19 @@ const contact = {
 
 const experiences = [
   {
+    title: 'Research Assistant (FADS)',
+    company: 'Indiana University',
+    location: 'Bloomington, Indiana',
+    duration: 'May 2024 - Present',
+    overview: 'Regulator Trends Analysis for Corporate Compliance Risk',
+    responsibilities: [
+      "• IU Faculty Assistance in Data Science (FADS) fellowship.",
+      "• Working on developing a compliance risk analysis tool using NLP to identify regulatory enforcement trends.",
+      "• Web scraping system to gather data from 10+ public enforcement newsletters, in the absence of RSS feeds.",
+      "• Dashboard for real-time compliance insights & visualizations, using filters to correlate compliance areas over time."
+    ],
+  },
+  {
     title: 'Software Engineer',
     company: 'FIS Global',
     location: 'Chennai, INDIA',
